@@ -1,0 +1,10 @@
+.footer {
+
+    height:24px; /* Replace with the height your footer should be */
+    width: 100%; /* Don't change */
+    background-attachment: scroll;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+	background-color: #f5f5f5;
+}  
