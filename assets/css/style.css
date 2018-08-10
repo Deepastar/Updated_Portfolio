@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(245, 241, 209);
+    background-color: burlywood;
 }
 #profile-img{
     border-radius: 50%;
@@ -8,10 +8,25 @@ body{
     font-size: 60px;
 }
   #top-row{
-    background: linear-gradient(to right, rgb(73, 183, 226), rgb(70, 70, 151), rgb(193, 234, 245));
+    background: linear-gradient(to right, rgb(59, 28, 29), #ac6a8b, rgb(139, 137, 137));
   }
 
   #navbar-container, #content-container, #portfolio-container, #contact-container{
       padding-left: 0px;
       padding-right: 0px;
   }
+
+  .navbar-custom{
+    background-color: #d9df89;
+  }
+  #nav-portfolio, #nav-profile, #nav-contact{
+      font-size: 20px;
+  }
+  
+  .card{
+      background-color: #421b15;
+      color: white;
+  }
+ #profile-name{
+     color: yellow;
+ }
