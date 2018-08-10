@@ -1,32 +1,34 @@
 body{
     background-color: burlywood;
 }
+
 #profile-img{
     border-radius: 50%;
-  }
+}
+
 #profile-name{
     font-size: 60px;
+    color: yellow;
 }
-  #top-row{
-    background: linear-gradient(to right, rgb(59, 28, 29), #ac6a8b, rgb(139, 137, 137));
-  }
 
-  #navbar-container, #content-container, #portfolio-container, #contact-container{
+#top-row{
+    background: linear-gradient(to right, rgb(59, 28, 29), #ac6a8b, rgb(139, 137, 137));
+}
+
+#navbar-container, #content-container, #portfolio-container, #contact-container{
       padding-left: 0px;
       padding-right: 0px;
-  }
+ }
 
-  .navbar-custom{
+.navbar-custom{
     background-color: #d9df89;
-  }
-  #nav-portfolio, #nav-profile, #nav-contact{
+}
+
+#nav-portfolio, #nav-profile, #nav-contact{
       font-size: 20px;
-  }
+}
   
-  .card{
+.card{
       background-color: #421b15;
       color: white;
-  }
- #profile-name{
-     color: yellow;
  }
