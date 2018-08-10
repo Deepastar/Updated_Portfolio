@@ -4,7 +4,9 @@ body{
 #profile-img{
     border-radius: 50%;
   }
-
+#profile-name{
+    font-size: 60px;
+}
   #top-row{
     background: linear-gradient(to right, rgb(73, 183, 226), rgb(70, 70, 151), rgb(193, 234, 245));
   }
