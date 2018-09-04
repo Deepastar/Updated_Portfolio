@@ -1,5 +1,11 @@
 body{
-    background-color: burlywood;
+    /* background-color: rgb(138, 175, 216); */
+    background-image: url('../images/BG1.jpg');
+    /* background-repeat: no-repeat; */
+    /* background-position: center;
+    
+    background-size: cover;
+    height: 100%;  */
 }
 
 #profile-img{
@@ -8,11 +14,15 @@ body{
 
 #profile-name{
     font-size: 60px;
-    color: yellow;
+    /* color: rgb(224, 26, 26); */
+    color: rgb(243, 47, 26);
 }
 
 #top-row{
-    background: linear-gradient(to right, rgb(59, 28, 29), #ac6a8b, rgb(139, 137, 137));
+    /* background-color: #355991; */
+    font-family: 'Courgette', cursive;
+    background-color: rgb(241, 198, 116);
+    /* background-color:grey; */
 }
 
 #navbar-container, #content-container, #portfolio-container, #contact-container{
@@ -21,7 +31,8 @@ body{
  }
 
 .navbar-custom{
-    background-color: #d9df89;
+    background-color: rgb(241, 198, 116);
+    font-family: 'Courgette', cursive;
 }
 
 #nav-portfolio, #nav-profile, #nav-contact{
@@ -29,6 +40,25 @@ body{
 }
   
 .card{
-      background-color: #421b15;
-      color: white;
- }
+      background-color: rgb(241, 198, 116);
+      color: black;
+      
+      
+}
+
+.card-body{
+    font-family: 'Courgette', cursive;
+    
+}
+a{
+    color: midnightblue;
+    font-weight: bold;
+    
+}
+h5{
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    color: midnightblue;
+    /* color: maroon; */
+}
+
