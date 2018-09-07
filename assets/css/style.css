@@ -15,7 +15,8 @@ body{
 #profile-name{
     font-size: 60px;
     /* color: rgb(224, 26, 26); */
-    color: rgb(243, 47, 26);
+    /* color: rgb(243, 47, 26); */
+    color: midnightblue;
 }
 
 #top-row{
@@ -52,7 +53,7 @@ body{
 }
 a{
     color: midnightblue;
-    font-weight: bold;
+    /* font-weight: bold; */
     
 }
 h5{
